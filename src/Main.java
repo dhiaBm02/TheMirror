@@ -21,11 +21,11 @@ public class Main {
         while (!choice.equalsIgnoreCase("q")) {
             // Display menu options
             System.out.println("Menu:");
-            System.out.println("1. 'x' für Spiegelung an der X-Achse");
-            System.out.println("2. 'y' für Spiegelung an der Y-Achse");
+            System.out.println("1. 'x' for mirroring on the X-axis");
+            System.out.println("2. 'y' for mirroring on the Y-axis");
             System.out.println("3. 'c' to clear the mirror");
             System.out.println("4. 'i' to choose a new number");
-            System.out.println("5. 'q' Quit");
+            System.out.println("5. 'q/Q' to Quit");
             System.out.print("Enter your choice: ");
 
             // Read user input
