@@ -2,6 +2,7 @@ import java.util.EnumSet;
 
 
 public class Digit {
+    // DIGIT_SEGMENTS[i] = i (0 <= i < 10)
     private static final EnumSet<Segment>[] DIGIT_SEGMENTS = new EnumSet[]{
             EnumSet.of(Segment.A, Segment.B, Segment.C, Segment.D, Segment.E, Segment.F),
             EnumSet.of(Segment.B, Segment.C),
